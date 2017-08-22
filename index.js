@@ -100,7 +100,6 @@ function main() {
                         break;
                     }
                     console.log("请按正确的格式输入（格式：姓名, 学号, 学科: 成绩, ...）：");
-                    continue;
                 }
                 addStudent(studentInfo, infoList);
                 break;
